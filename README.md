@@ -1,5 +1,5 @@
 # 2048
-This is a 2048 game that I coded during a raining Fall weekend.
+This is a 2048 game that I coded during a rainy Fall weekend.
 
 The movement keys are set at the beginning of each session so it's playable on all type of keyboard.
 

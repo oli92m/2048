@@ -102,12 +102,17 @@ def update(board, keys):
     move = input()
     previous_board = copy.deepcopy(board)
 
+    # match statement
+
+    # match move
+        # case keys[0]
     if move == keys[0]:
         for k in range(4):
             move_up(board)
         up_sum(board)
         move_up(board)
 
+        # case keys[1]
     elif move == keys[1]:
         for j in range(4):
             if board[1][j] == board[2][j] == board[3][j] and board[1][j] != 0:
@@ -120,12 +125,14 @@ def update(board, keys):
         down_sum(board)
         move_down(board)
 
+        # case keys[2]
     elif move == keys[2]:
         for k in range(4):
             move_left(board)
         left_sum(board)
         move_left(board)
 
+        # case keys[3]
     elif move == keys[3]:
         for i in range(4):
             if board[i][1] == board[i][2] == board[i][3] and board[i][1] != 0:
